@@ -1,0 +1,4 @@
+Paper target (banknote): sokal_michener, test size 60%, C=40 -> 0.949
+  This run, same configuration: 0.953  (difference +0.004); mean over all random splits: 0.939
+  This run, best proposed config: jaccard, N=60%, C=40 -> 0.954
+  NOTE: Mode A accuracies are maxima over many random splits chosen on the test split itself -> optimistic, not a generalization estimate.

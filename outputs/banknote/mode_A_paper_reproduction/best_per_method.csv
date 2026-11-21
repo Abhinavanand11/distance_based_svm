@@ -1,0 +1,8 @@
+dataset,kernel,distance,method,test_size,C,n_train,n_eval,n_iterations,train_acc,test_acc,mean_split_acc,precision,recall,specificity,f1,tn,fp,fn,tp
+banknote,proposed,jaccard,proposed-jaccard,0.6000,40,549,823,132,0.9217,0.9538,0.9383,0.9534,0.9431,0.9626,0.9482,437,17,21,348
+banknote,proposed,rogers_tanimoto,proposed-rogers_tanimoto,0.6000,40,549,823,132,0.9217,0.9538,0.9383,0.9534,0.9431,0.9626,0.9482,437,17,21,348
+banknote,rbf,-,rbf,0.6000,40,549,823,132,0.9217,0.9538,0.9379,0.9534,0.9431,0.9626,0.9482,437,17,21,348
+banknote,poly,-,poly,0.6000,40,549,823,132,0.9217,0.9538,0.9377,0.9534,0.9431,0.9626,0.9482,437,17,21,348
+banknote,proposed,sokal_michener,proposed-sokal_michener,0.6000,50,549,823,134,0.9180,0.9538,0.9391,0.9474,0.9474,0.9589,0.9474,443,19,19,342
+banknote,linear,-,linear,0.6000,50,549,823,134,0.9180,0.9538,0.9391,0.9474,0.9474,0.9589,0.9474,443,19,19,342
+banknote,sigmoid,-,sigmoid,0.9000,60,137,1235,191,0.9635,0.9198,0.7220,0.8907,0.9317,0.9105,0.9107,631,62,37,505

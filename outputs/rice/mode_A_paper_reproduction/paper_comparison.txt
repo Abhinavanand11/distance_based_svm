@@ -1,0 +1,4 @@
+Paper target (rice): sokal_michener, test size 60%, C=70 -> 0.890
+  This run, same configuration: 0.893  (difference +0.003); mean over all random splits: 0.879
+  This run, best proposed config: sokal_michener, N=60%, C=70 -> 0.893
+  NOTE: Mode A accuracies are maxima over many random splits chosen on the test split itself -> optimistic, not a generalization estimate.
